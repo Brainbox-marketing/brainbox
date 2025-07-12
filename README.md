@@ -39,4 +39,6 @@
 Также смотрите ⬇️  
 - [Чеклист по контекстной рекламе Яндекс.Директ](yandex-direct-checklist.md)
 - [Чеклист по таргетированной рекламе ВКонтакте](targeting-vk-checklist.md)
+- [Чеклист по SEO-продвижению сайтов](seo-promotion-checklist.md)
+
 
