@@ -35,3 +35,6 @@
 ---
 
 ⚡ Если вам нужна эффективная реклама без лишних затрат — заходите на [brainbox-marketing.ru](https://brainbox-marketing.ru)
+
+Также смотрите ⬇️  
+- [Чеклист по контекстной рекламе Яндекс.Директ](yandex-direct-checklist.md)
