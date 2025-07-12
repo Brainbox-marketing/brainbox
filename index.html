@@ -6,12 +6,17 @@
   <title>Brainbox Marketing — интернет-маркетинг для бизнеса</title>
   <link rel="icon" href="logo.png" type="image/png" />
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
       font-family: "Segoe UI", Tahoma, sans-serif;
       background: #fff;
       color: #222;
       line-height: 1.6;
+      scroll-behavior: smooth;
     }
 
     header {
@@ -27,9 +32,17 @@
     }
 
     .container {
-      max-width: 800px;
+      max-width: 850px;
       margin: 40px auto;
       padding: 0 20px;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: all 0.6s ease;
+    }
+
+    .container.loaded {
+      opacity: 1;
+      transform: translateY(0);
     }
 
     h1, h2 {
@@ -48,6 +61,7 @@
     a {
       color: #0066cc;
       text-decoration: none;
+      transition: all 0.2s ease;
     }
 
     a:hover {
@@ -66,9 +80,40 @@
       color: #999;
     }
 
+    .btn-group {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      background: #0066cc;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+
+    .btn:hover {
+      background: #004d99;
+      transform: scale(1.03);
+    }
+
+    .btn.active {
+      background: #003366;
+    }
+
     @media (max-width: 600px) {
       header img {
         height: 48px;
+      }
+
+      .btn {
+        width: 100%;
+        text-align: center;
       }
     }
   </style>
@@ -79,7 +124,7 @@
     <img src="logo.png" alt="Brainbox Marketing" />
   </header>
 
-  <div class="container">
+  <div class="container" id="main-content">
     <h1>Brainbox Marketing</h1>
     <p style="text-align: center;">Мы — команда интернет-маркетологов. Прокачиваем бизнес через:</p>
 
@@ -120,16 +165,33 @@
     <p style="text-align: center;"><strong>⚡ Если вам нужна эффективная реклама без лишних затрат — заходите на <a href="https://brainbox-marketing.ru" target="_blank">brainbox-marketing.ru</a></strong></p>
 
     <p style="text-align: center;">Также смотрите:</p>
-    <ul>
-      <li><a href="yandex-direct-checklist.html" target="_blank">Чеклист по контекстной рекламе Яндекс.Директ</a></li>
-      <li><a href="targeting-vk-checklist.html" target="_blank">Чеклист по таргетированной рекламе ВКонтакте</a></li>
-      <li><a href="seo-promotion-checklist.html" target="_blank">Чеклист по SEO-продвижению сайтов</a></li>
-    </ul>
+    <div class="btn-group">
+      <a class="btn" href="yandex-direct-checklist.html" target="_blank" id="btn-yandex">Чеклист Яндекс.Директ</a>
+      <a class="btn" href="targeting-vk-checklist.html" target="_blank" id="btn-vk">Чеклист ВКонтакте</a>
+      <a class="btn" href="seo-promotion-checklist.html" target="_blank" id="btn-seo">Чеклист по SEO</a>
+    </div>
   </div>
 
   <footer>
     &copy; 2025 Brainbox Marketing
   </footer>
+
+  <script>
+    // Анимация загрузки
+    window.addEventListener('load', () => {
+      document.getElementById('main-content').classList.add('loaded');
+    });
+
+    // Подсветка активной кнопки (если открывать без target="_blank")
+    const currentPage = window.location.pathname;
+    if (currentPage.includes("yandex-direct-checklist")) {
+      document.getElementById("btn-yandex")?.classList.add("active");
+    } else if (currentPage.includes("targeting-vk-checklist")) {
+      document.getElementById("btn-vk")?.classList.add("active");
+    } else if (currentPage.includes("seo-promotion-checklist")) {
+      document.getElementById("btn-seo")?.classList.add("active");
+    }
+  </script>
 
 </body>
 </html>
