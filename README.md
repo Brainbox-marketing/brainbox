@@ -2,14 +2,14 @@
 
 Мы — команда интернет-маркетологов. Прокачиваем бизнес через:
 
-- [контекстная реклама для малого бизнеса](https://brainbox-marketing.ru)
-- [настройка контекстной рекламы Яндекс Директ](https://brainbox-marketing.ru)
-- [контекстная реклама в Яндексе](https://brainbox-marketing.ru)
-- [таргетированная реклама ВКонтакте](https://brainbox-marketing.ru)
-- [таргетированная реклама для бизнеса](https://brainbox-marketing.ru)
-- [SEO продвижение сайтов](https://brainbox-marketing.ru)
-- [оптимизация сайта под Яндекс](https://brainbox-marketing.ru)
-- [продвижение сайта для малого бизнеса](https://brainbox-marketing.ru)
+- [контекстная реклама для малого бизнеса](https://brainbox-marketing.ru/services/kontekstnaya-reklama-yandeks-direkt/)
+- [настройка контекстной рекламы Яндекс Директ](https://brainbox-marketing.ru/services/kontekstnaya-reklama-yandeks-direkt/)
+- [контекстная реклама в Яндексе](https://brainbox-marketing.ru/services/kontekstnaya-reklama-yandeks-direkt/)
+- [таргетированная реклама ВКонтакте](https://brainbox-marketing.ru/services/targetirovannaya-reklama-vkontakte/)
+- [таргетированная реклама для бизнеса](https://brainbox-marketing.ru/services/targetirovannaya-reklama-vkontakte/)
+- [SEO продвижение сайтов](https://brainbox-marketing.ru/services/seo-prodvizenie/)
+- [оптимизация сайта под Яндекс](https://brainbox-marketing.ru/services/seo-prodvizenie/)
+- [продвижение сайта для малого бизнеса](https://brainbox-marketing.ru/services/seo-prodvizenie/)
 
 ---
 
@@ -28,9 +28,9 @@
 
 ## Полезные ссылки
 
-- [контекстная реклама в Яндексе](https://brainbox-marketing.ru)  
-- [таргетированная реклама ВКонтакте](https://brainbox-marketing.ru)  
-- [SEO продвижение сайтов](https://brainbox-marketing.ru)
+- [контекстная реклама в Яндексе](https://brainbox-marketing.ru/services/kontekstnaya-reklama-yandeks-direkt/)
+- [таргетированная реклама ВКонтакте](https://brainbox-marketing.ru/services/targetirovannaya-reklama-vkontakte/)
+- [SEO продвижение сайтов](https://brainbox-marketing.ru/services/seo-prodvizenie/)
 
 ---
 
